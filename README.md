@@ -23,7 +23,7 @@ Women In History es una aplicación que permite a los usuarios explorar y buscar
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/women-in-history.git
+   git clone https://github.com/EnriqueKloosterman/challengeWomenInHistory.git
    ```
 2. Navega al directorio del proyecto:
    ```bash
