@@ -38,57 +38,10 @@ Women In History es una aplicación que permite a los usuarios explorar y buscar
 
 1. Inicia la aplicación:
    ```bash
-   npm start
+   npm run dev
    ```
-2. Abre tu navegador web y ve a `http://localhost:3000`.
+2. Abre tu navegador web y ve a `http://localhost:5173`.
 
-## Estructura del Proyecto
-
-```plaintext
-.
-├── public
-├── src
-│   ├── auth
-│   │   └── UserContext.js
-│   ├── components
-│   │   └── NavBar.js
-│   ├── pages
-│   │   ├── List.js
-│   │   ├── Login.js
-│   │   └── Register.js
-│   ├── App.js
-│   └── index.js
-├── .gitignore
-├── package-lock.json
-├── package.json
-└── README.md
-```
-
-## Componentes Principales
-
-### `NavBar.js`
-
-El componente de navegación que muestra los enlaces de `Ingresar`, `Registrarse` o el nombre del usuario y el botón de `Logout`, dependiendo del estado de autenticación del usuario.
-
-### `List.js`
-
-El componente que muestra la lista de mujeres notables y permite buscar en la lista. También incluye la funcionalidad para eliminar una entrada si el usuario está registrado.
-
-### `Login.js`
-
-El componente de formulario de inicio de sesión que permite a los usuarios ingresar con su nombre y contraseña.
-
-### `Register.js`
-
-El componente de formulario de registro que permite a los nuevos usuarios registrarse.
-
-### `UserContext.js`
-
-El contexto de usuario que gestiona el estado de autenticación del usuario y proporciona funciones para iniciar y cerrar sesión.
-
-## Autores
-
-- [Tu Nombre](https://github.com/tu-usuario)
 
 ## Licencia
 
